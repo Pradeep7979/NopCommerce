@@ -1,0 +1,28 @@
+[
+	
+	{
+		"Gender" : "male",
+		"FirstName" : "John",
+		"LastName" : "Doe",
+		"Email" : "john",
+        "Password" : "John@1234",
+		"ConfirmPassword" : "John@1234"
+		
+	},
+	
+	
+	{
+		
+		"Gender" : "female",
+		"FirstName" : "Jane",
+		"LastName" : "Smith",
+		"Email" : "jane",
+        "Password" : "Jane@1234",
+		"ConfirmPassword" : "Jane@1234"
+	}
+	
+	
+	
+	
+	
+]

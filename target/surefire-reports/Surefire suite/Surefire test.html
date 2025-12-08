@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 07 05:52:12 EST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>155 seconds (155954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.GiftCardTest.TC_01_GiftCardTest()'><b>TC_01_GiftCardTest</b><br>Test class: Tests.GiftCardTest</td>
+<td></td>
+<td>25</td>
+<td>Tests.GiftCardTest@15c43bd9</td></tr>
+<tr>
+<td title='Tests.Build_Own_Computer_Test.Desktop()'><b>Desktop</b><br>Test class: Tests.Build_Own_Computer_Test</td>
+<td></td>
+<td>62</td>
+<td>Tests.Build_Own_Computer_Test@769f71a9</td></tr>
+<tr>
+<td title='Tests.HTC_SmartPhoneTest.TC_01_HTC_Test()'><b>TC_01_HTC_Test</b><br>Test class: Tests.HTC_SmartPhoneTest</td>
+<td></td>
+<td>19</td>
+<td>Tests.HTC_SmartPhoneTest@3d74bf60</td></tr>
+<tr>
+<td title='Tests.MacBookProTest.TC_01_MacBookPro()'><b>TC_01_MacBookPro</b><br>Test class: Tests.MacBookProTest</td>
+<td></td>
+<td>21</td>
+<td>Tests.MacBookProTest@4f209819</td></tr>
+<tr>
+<td title='Tests.Register_Test.registerTest()'><b>registerTest</b><br>Test class: Tests.Register_Test<br>Parameters: {Email=john, Gender=male, LastName=Doe, FirstName=John, Password=John@1234, ConfirmPassword=John@1234}</td>
+<td></td>
+<td>10</td>
+<td>Tests.Register_Test@15eb5ee5</td></tr>
+</table><p>
+</body>
+</html>

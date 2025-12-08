@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-07T06:32:52 EST" name="Suite" finished-at="2025-12-07T06:34:51 EST" duration-ms="119426">
+    <groups>
+    </groups>
+    <test started-at="2025-12-07T06:32:52 EST" name="Test" finished-at="2025-12-07T06:34:51 EST" duration-ms="119426">
+      <class name="Tests.Register_Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Register_Test@6f15d60e]" started-at="2025-12-07T06:33:00 EST" name="launchApplication" finished-at="2025-12-07T06:33:02 EST" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerTest(java.util.HashMap)[pri:0, instance:Tests.Register_Test@6f15d60e]" started-at="2025-12-07T06:33:02 EST" name="registerTest" data-provider="registerData" finished-at="2025-12-07T06:33:10 EST" duration-ms="8518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=john, Gender=male, LastName=Doe, FirstName=John, Password=John@1234, ConfirmPassword=John@1234}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Register_Test@6f15d60e]" started-at="2025-12-07T06:33:10 EST" name="tearDown" finished-at="2025-12-07T06:33:10 EST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Register_Test -->
+      <class name="Tests.Build_Own_Computer_Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Build_Own_Computer_Test@29d80d2b]" started-at="2025-12-07T06:33:38 EST" name="launchApplication" finished-at="2025-12-07T06:33:40 EST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Desktop()[pri:0, instance:Tests.Build_Own_Computer_Test@29d80d2b]" started-at="2025-12-07T06:33:40 EST" name="Desktop" finished-at="2025-12-07T06:34:05 EST" duration-ms="24901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Desktop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Build_Own_Computer_Test@29d80d2b]" started-at="2025-12-07T06:34:05 EST" name="tearDown" finished-at="2025-12-07T06:34:06 EST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Build_Own_Computer_Test -->
+      <class name="Tests.MacBookProTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.MacBookProTest@58e1d9d]" started-at="2025-12-07T06:34:06 EST" name="launchApplication" finished-at="2025-12-07T06:34:08 EST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC_01_MacBookPro()[pri:0, instance:Tests.MacBookProTest@58e1d9d]" started-at="2025-12-07T06:34:08 EST" name="TC_01_MacBookPro" finished-at="2025-12-07T06:34:29 EST" duration-ms="21347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_MacBookPro -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.MacBookProTest@58e1d9d]" started-at="2025-12-07T06:34:29 EST" name="tearDown" finished-at="2025-12-07T06:34:29 EST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.MacBookProTest -->
+      <class name="Tests.GiftCardTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.GiftCardTest@1be2019a]" started-at="2025-12-07T06:33:10 EST" name="launchApplication" finished-at="2025-12-07T06:33:12 EST" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC_01_GiftCardTest()[pri:0, instance:Tests.GiftCardTest@1be2019a]" started-at="2025-12-07T06:33:12 EST" name="TC_01_GiftCardTest" finished-at="2025-12-07T06:33:38 EST" duration-ms="25710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_GiftCardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.GiftCardTest@1be2019a]" started-at="2025-12-07T06:33:38 EST" name="tearDown" finished-at="2025-12-07T06:33:38 EST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.GiftCardTest -->
+      <class name="Tests.LoginErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.LoginErrorValidation@5f8e8a9d]" started-at="2025-12-07T06:32:52 EST" name="launchApplication" finished-at="2025-12-07T06:32:56 EST" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidationTest()[pri:0, instance:Tests.LoginErrorValidation@5f8e8a9d]" started-at="2025-12-07T06:32:56 EST" name="loginErrorValidationTest" finished-at="2025-12-07T06:32:59 EST" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginErrorValidation@5f8e8a9d]" started-at="2025-12-07T06:32:59 EST" name="tearDown" finished-at="2025-12-07T06:32:59 EST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginErrorValidation -->
+      <class name="Tests.HTC_SmartPhoneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.HTC_SmartPhoneTest@446a1e84]" started-at="2025-12-07T06:34:29 EST" name="launchApplication" finished-at="2025-12-07T06:34:31 EST" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TC_01_HTC_Test()[pri:0, instance:Tests.HTC_SmartPhoneTest@446a1e84]" started-at="2025-12-07T06:34:31 EST" name="TC_01_HTC_Test" finished-at="2025-12-07T06:34:51 EST" duration-ms="19744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_HTC_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HTC_SmartPhoneTest@446a1e84]" started-at="2025-12-07T06:34:51 EST" name="tearDown" finished-at="2025-12-07T06:34:51 EST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.HTC_SmartPhoneTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
