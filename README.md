@@ -62,5 +62,19 @@ Example:
 4. Run the test suite
 
 Using Maven:
-```bash
 mvn clean test
+
+##Reporting
+1.Test execution generates reports
+2.Failed test cases capture screenshots for easier debugging
+
+##Future Improvements
+1.GitHub Actions CI integration
+2.Cross-browser execution improvements
+3.Better explicit waits
+4.Parallel execution
+5.Headless execution support
+
+Author: Pradeep Garikimukku
+Role: Software QA Analyst
+Tech: Selenium | TestNG | Java | CI/CD | Agile | Manual & Automation Testing
