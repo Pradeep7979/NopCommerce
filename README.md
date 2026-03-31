@@ -75,6 +75,6 @@ mvn clean test
 4. Parallel execution
 5. Headless execution support
 
-Author: Pradeep Garikimukku
-Role: Software QA Analyst
-Tech: Selenium | TestNG | Java | CI/CD | Agile | Manual & Automation Testing
+*Author: Pradeep Garikimukku*
+*Role: Software QA Analyst* 
+*Tech: Selenium | TestNG | Java | CI/CD | Agile | Manual & Automation Testing*
